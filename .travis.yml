@@ -8,16 +8,16 @@ compiler:
  
 before_install:
 
-  - sudo apt-get update
+ - sudo apt-get update
   
-  - sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
+ - sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
   
- install:
+install:
  
-  - echo "Reach Install Section"
+ - echo "Reach Install Section"
   
-  script:
-   - echo "Reach Script Section"
-   - gcc   hello_world.c -o output
-   - ./output
+script:
+ - echo "Reach Script Section"
+ - gcc   hello_world.c -o output
+ - ./output
    
